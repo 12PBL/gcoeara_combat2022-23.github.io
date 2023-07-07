@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.combat_logo {
+    color: white;
+    font-size: 29px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.combat_logo span {
+    color: #00dcff;
+    font-size: 32px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #000000f2;
+    box-shadow: inset;
+    padding: 0px 4px 0px 4px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.navbar ul li {
+    padding: 15px 22px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    color: rgba(6, 183, 253, 0.863);
+}
+
+.vid-par {
+    position: relative;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: overlay;
+}
+
+.video1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.content h3{
+    color: black;
+    margin: 10px 0px 10px 0px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.content p{
+    color: black;
+    padding-top: -5px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+.table_content{
+    border-collapse: collapse;
+    margin: 25px 500px;
+    font-size: 28px;
+    min-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.table_content thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table_content tbody td{
+    color: #ff8f8f;
+}
+
+.table_content th, .table_content td {
+    padding: 10px 12px;
+}
+
+.table_content tbody tr {
+    border-bottom: 1px solid #929191;
+}
+
+.table_content tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.table_content tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.section_2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 160vh;
+    background-color:#997ae954
+}
+
+.content2 h3{
+    color: black;
+    margin: 10px 0px 10px 0px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.content2 p{
+    color: black;
+    padding-top: -5px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.row{
+    margin: 15px;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.cards{
+    display: inline-block;
+    position: relative;
+    margin: 25px 25px 25px 45px;
+    padding: 10px 10px 10px 9px;
+}
+
+
+.img1 .img2 .img3{
+    padding: 0 10px 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.img1 img{
+    width: 315px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 5px 15px 10px green;   
+}
+
+
+.img2 img{
+    width: 315px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.img3 img{
+    width: 315px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 5px 15px 10px red;
+}
+
+.section_3{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 170vh;
+}
+
+.content h4{
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 23px;    
+}
+
+.line{
+    width: 35px;
+    background-color: white;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+@media only screen and (max-width:1104px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar ul {
+        flex-direction: column;
+        background-color: #000000f2;
+        transition: all 0.4s ease-out;
+        z-index: 1;
+    }
+    .burger{
+        display: block;
+        margin-right: 4px;
+    }
+
+    .responsive{
+        width: 100%;
+    }
+
+    .combat_logo {
+        font-size: 26px;
+        padding-top: 5px ;
+        padding-left: 2px;
+        margin-left: -44px;
+        margin-top: 18px;
+    }
+    
+    .combat_logo span {
+        font-size: 28px;
+        padding-top: 5px ;
+        margin-top: 8px;    
+    }
+
+    .h-nav-resp{
+        height: 372px;
+    }
+    .visibility_resp{
+       visibility: hidden;
+    }
+    .vid-par {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .content h3{
+        font-size: 30px;
+    }
+
+    .content h4{
+        font-size: 35px;
+    }
+
+    .table_content{
+        margin: 25px 50px;
+        font-size: 25px;
+        min-width: 300px;
+    }
+
+    .cards{
+        margin: 15px 20px 20px 35px;
+        padding: 10px 10px 10px 9px;
+    }
+
+    .section_2{
+        height: 70vh;
+    }
+    
+
+    .img1 img{
+        width: 110px;
+        height: 110px;   
+    }
+    
+    
+    .img2 img{
+        width: 110px;
+        height: 110px;
+    }
+    
+    .img3 img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .section_3{
+        height: 90vh;
+    }
+}
