@@ -67,6 +67,14 @@ body {
     text-align: center;
 }
 
+.games h3{
+    text-align: left;
+    font-size: 65px;
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    color: black;
+}
+
 .content {
     font-size: 20px;
     font-family: 'Tillana', cursive;
