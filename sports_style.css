@@ -67,12 +67,14 @@ body {
     text-align: center;
 }
 
-.games h3{
+.games h3 {
     text-align: left;
-    font-size: 65px;
+    font-size: 55px;
     font-family: 'Righteous', cursive;
-    font-weight: 200;
-    color: black;
+    font-weight: 150;
+    color: #605f5d;
+    padding: 15px;
+    margin: 15px;
 }
 
 .content {
@@ -84,7 +86,6 @@ body {
 .main {
     margin: 15px;
     padding: 20px;
-
 }
 
 .cards {
@@ -101,7 +102,6 @@ body {
 
 .cards:hover {
     box-shadow: 5px 5px 10px black;
-
 }
 
 
