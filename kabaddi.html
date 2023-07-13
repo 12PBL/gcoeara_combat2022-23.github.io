@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabaddi</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <link rel="stylesheet" href="kabaddi.css">
@@ -48,7 +49,7 @@
             <div class="content">
                 <h3>1) Preliminary Matches</h3>
                 <p>The result of preliminary matches of boys are as follows:</p>
-                <table class="table_content">
+                <table class="table_content" data-aos="zoom-in-up">
                     <thead>
                         <tr>
                             <th>Teams</th>
@@ -89,17 +90,17 @@
                 <p>The teams qualified for the semifinals of boys kabaddi are:<br></p>
                 <div class="main2"> 
                     <div class="row">
-                        <div class="cards">
+                        <div class="cards" data-aos="slide-right">
                             <div class="img1">
                                 <img src="civil.jpeg" alt="">
                             </div>
                         </div>
-                        <div class="cards">
+                        <div class="cards" data-aos="zoom-in-up">
                             <div class="img2">
                                 <img src="vs.webp" alt="V/S">
                             </div>
                         </div>
-                        <div class="cards">
+                        <div class="cards" data-aos="slide-left">
                             <div class="img3">
                                 <img src="mechanical.jpg" alt="">
                             </div>
@@ -107,17 +108,17 @@
                     </div>
 
                     <div class="row">
-                        <div class="cards">
+                        <div class="cards"data-aos="slide-right">
                             <div class="img1">
                                 <img src="instru.jpeg" alt="">
                             </div>
                         </div>
-                        <div class="cards">
+                        <div class="cards" data-aos="zoom-in-up">
                             <div class="img2">
                                 <img src="vs.webp" alt="V/S">
                             </div>
                         </div>
-                        <div class="cards">
+                        <div class="cards" data-aos="slide-left">
                             <div class="img3">
                                 <img src="automobile.jpeg" alt="">
                             </div>
@@ -134,17 +135,17 @@
 
                 <h4>GIRLS</h4>
                 <div class="row">
-                    <div class="cards">
+                    <div class="cards" data-aos="slide-right">
                         <div class="img1">
-                            <img src="entc.jpg" alt="">
+                            <img src="entc.webp" alt="">
                         </div>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="zoom-in-up">
                         <div class="img2">
                             <img src="vs.webp" alt="V/S">
                         </div>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="slide-left">
                         <div class="img3">
                             <img src="automobile.jpeg" alt="">
                         </div>
@@ -153,17 +154,17 @@
 
                 <h4>BOYS</h4>
                 <div class="row">
-                    <div class="cards">
+                    <div class="cards" data-aos="slide-right">
                         <div class="img1">
                             <img src="civil.jpeg" alt="">
                         </div>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="zoom-in-up">
                         <div class="img2">
                             <img src="vs.webp" alt="V/S">
                         </div>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="slide-left">
                         <div class="img3">
                             <img src="instru.jpeg" alt="">
                         </div>
@@ -174,6 +175,18 @@
         </section>
     </div>
     <script src="resp.js"></script>
+
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 800,
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false
+        });
+    </script>
 </body>
 
 </html>

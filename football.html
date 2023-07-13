@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <link rel="stylesheet" href="games.css">
@@ -62,18 +63,18 @@
                 <p>The teams competing in the Finals were:</p>
                 <h4>BOYS</h4>
                 <div class="row">
-                    <div class="cards">
+                    <div class="cards" data-aos="slide-right">
                         <div class="img1">
                             <img src="entc.jpg" alt="">
                         </div>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="zoom-in-up">
                         <div class="img2">
                             <img src="vs.webp" alt="V/S">
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="img3">
+                        <div class="img3" data-aos="slide-left">
                             <img src="automobile.jpeg" alt="">
                         </div>
                     </div>
@@ -83,6 +84,18 @@
     </div>
     
     <script src="resp.js"></script>
+
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 800,
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false
+        });
+    </script>
 </body>
 
 </html>
