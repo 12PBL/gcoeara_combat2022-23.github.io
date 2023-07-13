@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teams</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <link rel="stylesheet" href="teams_style.css">
-
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="main">
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="image">
                 <img src="computer.png" alt="">
             </div>
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="image">
                 <img src="entc.jpg" alt="">
             </div>
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="image">
                 <img src="civil.jpeg" alt="">
             </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards"data-aos="zoom-in-up">
             <div class="image">
                 <img src="mechanical.jpg" alt="">
             </div>
@@ -75,7 +75,7 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="image">
                 <img src="instru.jpeg" alt="">
             </div>
@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="image">
                 <img src="automobile.jpeg" alt="">
             </div>
@@ -96,6 +96,15 @@
 
 
     <script src="resp.js"></script>
+
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration:800,
+      });
+    </script>
 
 </body>
 
