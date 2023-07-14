@@ -211,13 +211,13 @@ html, body{
     }
 
     .combat p {
-        font-size: 80px;
+        font-size: 70px;
         padding-bottom: 30px;
         padding-left: 5px;
     }
 
     .combat span {
-        font-size: 70px;
+        font-size: 60px;
         padding-right: 5px;
     }
 
@@ -236,9 +236,9 @@ html, body{
         height: 268px;
         display: flex;
         margin-left: 20px;
-        margin-top: 250px;
+        margin-top: 300px;
     }
-    
-    
-    
+    .img_name{
+        padding-top: 50px;
+    }  
 }
