@@ -1,4 +1,4 @@
-html, body{
+html,body{
     overflow-x: hidden;
 }
 .topbar {
@@ -157,9 +157,6 @@ html, body{
 }
 
 @media only screen and (max-width:1330px) {
-    html, body{
-        overflow-x: hidden;
-    }
     .header{
         display: none;
     }
@@ -178,6 +175,7 @@ html, body{
 
     .combat_logo {
         font-size: 20px;
+        padding-left: 20px;
     }
 
     .combat_logo span {
@@ -211,13 +209,13 @@ html, body{
     }
 
     .combat p {
-        font-size: 70px;
+        font-size: 80px;
         padding-bottom: 30px;
         padding-left: 5px;
     }
 
     .combat span {
-        font-size: 60px;
+        font-size: 70px;
         padding-right: 5px;
     }
 
@@ -238,7 +236,11 @@ html, body{
         margin-left: 20px;
         margin-top: 300px;
     }
+
     .img_name{
         padding-top:50px;
     }
+    
+    
+    
 }
