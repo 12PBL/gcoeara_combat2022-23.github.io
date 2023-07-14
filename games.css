@@ -5,6 +5,9 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
+html{
+    overflow-x: hidden;
+}
 
 .combat_logo {
     color: white;
@@ -77,7 +80,22 @@ body {
     z-index: -1;
 }
 
-.content h3{
+.content1 h3{
+    color: floral white;
+    margin: 10px 0px 10px 0px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.content1 p{
+    color: floral white;
+    padding-top: -5px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.content3 h3{
     color: black;
     margin: 10px 0px 10px 0px;
     padding-top: 30px;
@@ -85,7 +103,7 @@ body {
     font-size: 35px;
 }
 
-.content p{
+.content3 p{
     color: black;
     padding-top: -5px;
     padding-left: 50px;
