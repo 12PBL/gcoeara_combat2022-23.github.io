@@ -1,3 +1,6 @@
+html, body{
+    overflow-x: hidden;
+}
 .topbar {
     display: inline-block;
     background: linear-gradient(rgb(0 0 0 / 31%), rgb(117 163 165 / 0%));
